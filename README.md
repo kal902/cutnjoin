@@ -1,7 +1,3 @@
-kal902: @workspace write me a github .readme for this program
-
-Workspace: Collecting workspace information# cutnjoin
-
 A simple C++ utility to **split** a large file into two parts (optionally to different drives) and **merge** them back together. Useful for moving large files between drives with limited space.
 
 ## Features
