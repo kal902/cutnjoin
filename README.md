@@ -17,13 +17,7 @@ A simple C++ utility to **split** a large file into two parts (optionally to dif
 Use your preferred C++ compiler. Example with g++:
 
 ```sh
-g++ splitter.cpp -o splitter
-```
-
-Or with MSVC:
-
-```sh
-cl splitter.cpp /EHsc
+g++ splitter.cpp -I./include -o splitter
 ```
 
 ## Usage
@@ -42,7 +36,7 @@ splitter.exe -s --mainfile=<file> --drive1=<drive> --drive2=<drive> --p1size=<si
 **Example:**
 
 ```sh
-splitter.exe -s --mainfile=movie.mp4 --drive1=D --drive2=E --p1size=3.5
+splitter.exe -s --mainfile=bigfile.bin --drive1=D --drive2=E --p1size=3.5
 ```
 
 ### Merge Two Parts
@@ -74,15 +68,11 @@ splitter.exe --help
 
 ## License
 
-MIT License. See cxxopts.hpp for third-party license.
+See cxxopts.hpp for third-party license.
 
 ---
 
 **Author:**  
-Your Name
+Kaleab Nigusse
 
 **Contributions and issues are welcome!**
-
-kal902: in other github read me, i see cmds putted inside a square box(kind of input box styles) its looks like the answer you give me above, how do i make it look it like that inside github website of my .readme
-
-VS Code: 
